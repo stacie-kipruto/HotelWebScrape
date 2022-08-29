@@ -29,7 +29,7 @@ worksheet = workbook.add_worksheet()
 row = 0
 col = 0
 
-#:)
+#for loop
 for e in roomtypes:
     rtype = e.find_element(By.CLASS_NAME, "hprt-roomtype-icon-link").text
     price = e.find_element(By.CLASS_NAME, "prco-valign-middle-helper").text
