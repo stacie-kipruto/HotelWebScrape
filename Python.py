@@ -14,7 +14,7 @@ page_url = "https://www.booking.com/hotel/ke/tune.en-gb.html?aid=304142&label=ge
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get(page_url)
 
-# babe note we have changed from find_elements to find_element
+# changed from find_elements to find_element
 location = driver.find_element(By.CLASS_NAME, "hp_address_subtitle").text
 #title = driver.find_elements(By.CLASS_NAME, "pp-header__title").text
 
